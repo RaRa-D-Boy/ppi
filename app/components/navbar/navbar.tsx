@@ -20,8 +20,8 @@ export const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 z-50 px-6 lg:px-24 py-4">
       <nav className="flex items-center justify-between backdrop-blur-lg rounded-lg bg-black/20 p-4 lg:p-4">
         {/* Logo */}
-        <Link href="/" className="text-white text-2xl font-light">
-          +be
+        <Link href="/" className="text-white text-2xl  font-semibold">
+          +Ppi
         </Link>
 
         {/* Desktop Navigation */}

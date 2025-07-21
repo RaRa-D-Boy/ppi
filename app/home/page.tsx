@@ -30,7 +30,7 @@ export default function HomePage() {
         {/* Content */}
         <div className="relative z-10 px-12  lg:px-24  grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-5xl lg:text-7xl font-light text-white leading-tight">
+            <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
               AI Infrastructure
               <br />
               Powered by

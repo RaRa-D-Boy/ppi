@@ -70,7 +70,7 @@ export default function EconomicRationalePage() {
             <span className=" bg-gray-100 p-4 min-w-[300px] text-xs  text-center font-medium uppercase text-green-600">
               Economic Rationale
             </span>
-            <h1 className="text-4xl md:text-7xl font-normal text-start leading-tight py-12">
+            <h1 className="text-4xl md:text-7xl font-bold text-start leading-tight py-12">
               Key Statistics
             </h1>
           </div>
