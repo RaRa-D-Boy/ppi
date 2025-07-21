@@ -18,7 +18,7 @@ export const Navbar = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 px-6 lg:px-24 py-4">
-      <nav className="flex items-center justify-between backdrop-blur-lg rounded-lg bg-black/20 p-4 lg:p-6">
+      <nav className="flex items-center justify-between backdrop-blur-lg rounded-lg bg-black/20 p-4 lg:p-4">
         {/* Logo */}
         <Link href="/" className="text-white text-2xl font-light">
           +be
@@ -30,7 +30,7 @@ export const Navbar = () => {
             <Link
               key={link.href}
               href={link.href}
-              className="text-white text-base hover:text-blue-200 transition-colors"
+              className="text-white text-sm hover:text-green-600 transition-colors"
             >
               {link.label}
             </Link>
@@ -40,7 +40,7 @@ export const Navbar = () => {
 
         <button
             type="button"
-            className="border hidden lg:flex border-white rounded-lg text-white hover:bg-white hover:text-black text-xs p-4 transition-colors bg-transparent"
+            className="border hidden lg:flex border-white rounded-lg text-white hover:bg-white hover:text-black text-xs p-2 transition-colors bg-transparent"
           >
             GET IN TOUCH
           </button>

@@ -34,7 +34,7 @@ export default function EconomicRationalePage() {
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between md:items-end mb-12">
           <div>
-            <span className="inline-block bg-gray-100 px-4 py-2 text-xs font-medium uppercase tracking-widest mb-4">Economic Rationale</span>
+            {/* <span className="inline-block bg-gray-100 px-4 py-2 text-xs font-medium uppercase tracking-widest mb-4 text-white">Economic Rationale</span> */}
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-right leading-tight">Ghana’s Road Network<br />By the Numbers</h1>
         </div>

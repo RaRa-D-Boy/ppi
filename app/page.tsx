@@ -7,14 +7,17 @@ import HomePage from "./home/page"
 import OurStory from "./ourstory/page"
 import ExecutingStrategy from "./executingStrategies/executingStrategy"
 import EconomicRationalePage from "./economicRationale/economicRationale"
+import {CardGrid} from "./components/grids/grids"
 
 export default function Page() {
   return (
     <>
     <HomePage/>
     <OurStory/>
-    <ExecutingStrategy/>
+    <CardGrid/>
+    {/* <ExecutingStrategy/> */}
     <EconomicRationalePage/>
+    
     </>
 
   )

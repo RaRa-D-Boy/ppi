@@ -67,7 +67,7 @@ export default function EconomicRationalePage() {
       <div className="w-full">
         <div className=" mb-12">
           <div>
-            <span className=" bg-gray-100 p-4 min-w-[300px] text-xs  text-center font-medium uppercase ">
+            <span className=" bg-gray-100 p-4 min-w-[300px] text-xs  text-center font-medium uppercase text-green-600">
               Economic Rationale
             </span>
             <h1 className="text-4xl md:text-7xl font-normal text-start leading-tight py-12">

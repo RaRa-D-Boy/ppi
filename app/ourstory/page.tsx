@@ -5,7 +5,7 @@ const OurStory = () => {
     <section className="min-h-auto w-full bg-white p-12 lg:p-24">
       <div className=" flex items-center border-b pb-12">
         <div>
-          <p className="max-w-[150px] p-4 text-center bg-gray-100 text-sm">OUR STORY</p>
+          <p className="max-w-[150px] p-4 text-center bg-gray-100 text-sm text-green-600">OUR STORY</p>
           <div className="content py-12  text-7xl leading-tight max-w-screen-lg">
             Empowering Ghana's future through investment in infrastructure
           </div>
