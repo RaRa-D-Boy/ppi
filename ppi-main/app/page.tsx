@@ -13,7 +13,6 @@ export default function Page() {
       <HomePage />
       <OurStory />
       <WhatWeDoing />
-      {/* <CardGrid/> */}
       <ExecutingStrategy />
       <EconomicRationalePage />
       <WorkForce />
