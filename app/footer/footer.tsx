@@ -18,12 +18,13 @@ export const Footer = () => {
         </a>
       </div>
       <div className="w-full lg:w-auto px-4 flex justify-center lg:justify-end">
+
         <ul className="flex flex-nowrap items-center -mb-2 text-sm">
-          <li className="mx-2 mb-2 sm:mr-6 lg:mr-16"><a className="font-heading text-black hover:text-gray-100" href="#">About</a></li>
-          <li className="mx-2 mb-2 sm:mr-6 lg:mr-16"><a className="font-heading text-black hover:text-gray-100" href="#">Company</a></li>
-          <li className="mx-2 mb-2 sm:mr-6 lg:mr-16"><a className="font-heading text-black hover:text-gray-100" href="#">Services</a></li>
-          <li className="mx-2 mb-2"><a className="font-heading text-black hover:text-gray-100" href="#">Testimonials</a></li>
-          {/* <li className="mb-2 mx-2 md:mx-6"><span className="mt-6 sm:mt-0 text-black text-sm ">2025 © PPI</span>          </li> */}
+          <li className="mx-2 mb-2 sm:mr-6 lg:mr-16"><span className="font-heading text-black hover:text-gray-100" >info@pathwayspioneersinitiative</span></li>
+          <li className="mx-2 mb-2 sm:mr-6 lg:mr-16"><span className="font-heading text-black hover:text-gray-100" >(+44) 0208 748 3333</span></li>
+          <li className="mx-2 mb-2 sm:mr-6 lg:mr-16">      <span className="mt-6 sm:mt-0 text-black text-sm ">2025 © PPI</span></li>
+          {/* <li className="mx-2 mb-2"><span className="font-heading text-black hover:text-gray-100" >(+44) 0208 748 3333</span></li>
+          <li className="mb-2 mx-2 md:mx-6"><span className="mt-6 sm:mt-0 text-black text-sm ">2025 © PPI</span>          </li> */}
         </ul>
       </div>
     </div>

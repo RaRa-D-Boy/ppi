@@ -76,7 +76,7 @@ const WorkForce = ({ team = defaultTeam }: { team?: TeamMember[] }) => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4 max-w-4xl">
             "Alone we can do so little, together we can do so much."
           </h2>
-          <p className="text-lg text-white/80">Helen Keller</p>
+          {/* <p className="text-lg text-white/80">Helen Keller</p> */}
         </div>
 
         {/* Team Member Card */}

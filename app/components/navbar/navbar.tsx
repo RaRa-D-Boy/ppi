@@ -52,12 +52,12 @@ export const Navbar = () => {
           ))}
         </div>
 
-        <button
+        {/* <button
             type="button"
             className="border hidden lg:flex border-white rounded-lg text-white hover:bg-white hover:text-black text-xs xl:text-sm p-2 xl:p-3 transition-colors bg-transparent"
           >
             GET IN TOUCH
-          </button>
+          </button> */}
 
         {/* Hamburger for mobile/tablet */}
         <button
