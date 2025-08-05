@@ -6,30 +6,30 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const cards = [
   {
-    title: "Efficient Infrastructure Allocation",
-    body: "Introducing a new model of building infrastructure to support the efficient allocation of capital to road projects.",
+    title: "Leveraging AI for High Impact Road Selection",
+    body: "PPI has developed proprietory software that uses reasoning AI models to analyse geospatial data in order to identify high impact roads.",
     image: "/strategies/strategy1.jpg",
   },
   {
-    title: "Charity Meets Private Equity",
-    body: "PPI combines the charity model with private equity discipline unlike any other organization around the world.",
+    title: "Novel Road Maintenance Processes",
+    body: "PPI uses a combination of traditional fund-raising approaches and innovative constrcution materials to ensure high quality road maintenance",
     image: "/strategies/strategy2.jpg",
   },
   {
-    title: "Transparent & Accountable Funding",
-    body: "Thereby, creating a vehicle that is transparent, fully auditable, and can be held accountable for money given it to execute road infrastructure projects.",
+    title: "Embracing A Commercial Mindset For Socio-Economic Impact",
+    body: "PPI has an unwavering committment to work with governments and organisations to embrace the commercial mindset of private equity to accessing capital to infrastructure assests in Africa with the ultimate aim of elevating socio-economic  outcomes for African societies",
     image: "/strategies/strategy3.jpg",
   },
-  {
-    title: "Embracing a Commercial Mindset",
-    body: "We have an unwavering commitment to work with governments and wider system to embrace the commercial mindset of allocating capital to infrastructure assets traditionally classNameified as public goods.",
-    image: "/strategies/strategy4.jpg",
-  },
-  {
-    title: "Driving Socioeconomic Impact",
-    body: "This is geared towards increasing socioeconomic outcomes for society and other relevant stakeholders.",
-    image: "/strategies/strategy5.jpg",
-  },
+  // {
+  //   title: "Embracing a Commercial Mindset",
+  //   body: "We have an unwavering commitment to work with governments and wider system to embrace the commercial mindset of allocating capital to infrastructure assets traditionally classNameified as public goods.",
+  //   image: "/strategies/strategy4.jpg",
+  // },
+  // {
+  //   title: "Driving Socioeconomic Impact",
+  //   body: "This is geared towards increasing socioeconomic outcomes for society and other relevant stakeholders.",
+  //   image: "/strategies/strategy5.jpg",
+  // },
 ];
 
 function useSlidesPerView() {
@@ -94,7 +94,7 @@ export default function ExecutingStrategy() {
       <div className="flex flex-wrap -m-4">
         <div className="w-full lg:w-1/3 p-4">
           <div className="flex flex-col justify-end items-start h-full py-12">
-            <h1 className="tracking-tight font-heading font-semibold text-3xl md:text-5xl lg:text-7xl  mb-4">How we are doing it.</h1>
+            <h1 className="tracking-tight font-heading font-semibold text-3xl md:text-5xl lg:text-7xl  mb-4">Our Strategy.</h1>
             
             
             <div className="flex gap-2 mt-8 ">

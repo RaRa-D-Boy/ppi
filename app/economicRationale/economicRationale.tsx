@@ -6,65 +6,65 @@ const sectors = [
   {
     code: "I01",
     icon: <Tally1 />,
-    title:  "78,401km",
-    description: "Ghana’s road network in 2016",
+    title:  "966",
+    description: "Outstanding Road Projects in Africa",
   },
   {
     code: "I02",
     icon: <Tally5 />,
-    title: "~750",
-    description: "Outstanding road projects across Ghana, as of 2023",
+    title: "$10 - 15Bn",
+    description: "Is the amount estimated to be needed to execute road construction and maintenance projects across Africa",
   },
   {
     code: "I03",
     icon: <Tally2 />,
-    title:  "$1.3Bn",
-    description: "Amount required annually for maintenance and improvements",
+    title:  "~2.5% per year",
+    description: "is Africa's projected population growth rate, making it more urgent to deliver reliable infrastructure and improved transportation network",
   },
-  {
-    code: "I04",
-    icon: (<>
-        <Tally5 /> <Tally1 />{" "}
-      </>),
-    title: "2%",
-    description: "Nation's population growth, making it more urgent to deliver reliable infrastructure and improved transportation network",
+  // {
+  //   code: "I04",
+  //   icon: (<>
+  //       <Tally5 /> <Tally1 />{" "}
+  //     </>),
+  //   title: "2%",
+  //   description: "Nation's population growth, making it more urgent to deliver reliable infrastructure and improved transportation network",
 
-  },
-  {
-    code: "I05",
-    icon: <Tally3 />,
-    title: "$272Bn",
-    description: "Amount required to achieve target of expanding the road network to 253,000km by 2047, according to the Finance Minister",
+  // },
+  // {
+  //   code: "I05",
+  //   icon: <Tally3 />,
+  //   title: "$272Bn",
+  //   description: "Amount required to achieve target of expanding the road network to 253,000km by 2047, according to the Finance Minister",
 
-  },
-  {
-    code: "I06",
-    icon: (
-      <>
-        <Tally5 /> <Tally2 />{" "}
-      </>
-    ),
-    title: "23%",
-    description: "Actual expenditure on roads in 2022 vs. the amount budgeted by the Ministry of Roads",
+  // },
+  // {
+  //   code: "I06",
+  //   icon: (
+  //     <>
+  //       <Tally5 /> <Tally2 />{" "}
+  //     </>
+  //   ),
+  //   title: "23%",
+  //   description: "Actual expenditure on roads in 2022 vs. the amount budgeted by the Ministry of Roads",
 
-  },
-  {
-    code: "I07",
-    icon: (
-      <>
-        <Tally4 />
-      </>
-    ),
-    title: "$9Bn",
-    description:
-      "Amount required annually to achieve the 2047 target",
-  },
+  // },
+  // {
+  //   code: "I07",
+  //   icon: (
+  //     <>
+  //       <Tally4 />
+  //     </>
+  //   ),
+  //   title: "$9Bn",
+  //   description:
+  //     "Amount required annually to achieve the 2047 target",
+  // },
 ];
 
 export default function EconomicRationalePage() {
   return (
     <section id="economicrationale">
-        <div className="min-h-screen bg-white px-6 md:px-12 lg:px-24 py-12">
+        <div className="min-h-autp bg-white px-6 md:px-12 lg:px-24 py-12">
       <div className="w-full">
         <div className=" mb-12">
           <div>

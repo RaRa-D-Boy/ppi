@@ -10,7 +10,7 @@ export default function WhatWeDoing() {
         alt=""
       />
       <div className="relative ">
-        <div className="max-w-7xl mx-auto">
+        <div className="w-full mx-auto">
           <div className="flex flex-wrap -mx-4 mb-18 items-center">
             <div className="w-full px-4 mb-12 lg:mb-0">
               <div>
