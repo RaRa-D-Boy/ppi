@@ -30,13 +30,10 @@ const stats = [
 
 export default function EconomicRationalePage() {
   return (
-    <div className="min-h-screen bg-white px-4 md:px-16 py-12">
-      <div className="max-w-4xl mx-auto">
-        <div className="flex flex-col md:flex-row md:justify-between md:items-end mb-12">
-          <div>
-            {/* <span className="inline-block bg-gray-100 px-4 py-2 text-xs font-medium uppercase tracking-widest mb-4 text-white">Economic Rationale</span> */}
-          </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-right leading-tight">Ghana’s Road Network<br />By the Numbers</h1>
+    <div className="min-h-screen bg-white px-4 md:px-16 py-12 flex items-center justify-center">
+      <div className="max-w-4xl mx-auto w-full">
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight">Ghana's Road Network<br />By the Numbers</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-12 divide-y md:divide-y-0 md:divide-x">
           <div className="flex flex-col gap-12">

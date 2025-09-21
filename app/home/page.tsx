@@ -28,8 +28,8 @@ export default function HomePage() {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 px-12  lg:px-24  grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8">
+        <div className="relative z-10 px-12 lg:px-24 flex items-center justify-center h-full w-full">
+          <div className="space-y-8 text-center">
             <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
               AI Infrastructure
               <br />

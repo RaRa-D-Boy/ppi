@@ -2,14 +2,16 @@ import React from "react";
 
 const OurStory = () => {
   return (
-    <section className="min-h-auto w-full bg-white p-12 lg:p-24">
-      <div className=" flex items-center border-b pb-12">
-        <div>
-          <p className="max-w-[150px] p-4 text-center bg-gray-100 text-sm text-green-600">OUR STORY</p>
-          <div className="content py-12  text-7xl font-bold leading-tight max-w-screen-lg">
+    <section className="min-h-screen w-full bg-white flex items-center justify-center md:p-12 lg:p-24 px-8">
+      <div className="flex items-center justify-center border-b pb-12 w-full">
+        <div className="text-center max-w-6xl">
+          <span className="bg-gray-100 p-4 w-[300px] text-xs text-center font-medium uppercase text-green-600 mx-auto block mb-8">
+            OUR STORY
+          </span>
+          <h1 className="text-4xl md:text-7xl font-bold leading-tight py-12">
             Empowering Ghana's future through investment in infrastructure
-          </div>
-          <div className="max-w-screen-lg text-base font-light">
+          </h1>
+          <div className="text-base font-light">
             PPI was formed by experienced investment professionals of African
             heritage who have excelled at leading global firms Having witnessed
             the precarious state of road infrastructure and its economic impact,
@@ -20,7 +22,6 @@ const OurStory = () => {
             development
           </div>
         </div>
-        
       </div>
     </section>
   );

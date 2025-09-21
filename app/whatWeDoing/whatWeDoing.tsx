@@ -3,22 +3,22 @@ import React from "react";
 
 export default function WhatWeDoing() {
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className="relative py-20 overflow-hidden min-h-screen flex items-center justify-center">
       <img
         className="absolute top-0 right-0"
         src="saturn-assets/images/features/star-element-right.png"
         alt=""
       />
-      <div className="relative container px-4 mx-auto">
+      <div className="relative container px-4 mx-auto w-full">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap -mx-4 mb-18 items-center">
-            <div className="w-full px-4 mb-12 lg:mb-0">
+          <div className="flex flex-wrap -mx-4 mb-18 items-center justify-center">
+            <div className="w-full px-4 mb-12 lg:mb-0 text-center">
               <div>
-                <p className="max-w-[150px] mb-5 p-4 text-center bg-gray-100 text-sm text-green-600 uppercase">
+                <span className="bg-gray-100 p-4 w-[300px] text-xs text-center font-medium uppercase text-green-600 mx-auto block mb-8">
                   Charity
-                </p>
-                <h1 className="text-7xl leading-tight text-gray-900 font-bold mb-8">
-                  <span>What We're Doing</span>
+                </span>
+                <h1 className="text-4xl md:text-7xl leading-tight text-gray-900 font-bold mb-8">
+                  What We're Doing
                 </h1>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function WhatWeDoing() {
                       className="relative block h-full mb-7 pt-8 px-8 pb-5 rounded-3xl bg-green-50 hover:bg-green-100 transition duration-200"
                       href="#"
                     >
-                      <div className="flex flex-col h-full justify-between max-w-sm pr-16">
+                      <div className="flex flex-col h-full justify-between items-center text-center">
                         <p className="text-sm text-gray-900 mb-10 md:mb-6">
                           • Road Type: Brownfield; feeder roads to major
                           highways
@@ -72,18 +72,16 @@ export default function WhatWeDoing() {
                       className="relative block h-full pt-8 px-8 pb-5 rounded-3xl bg-gray-100 hover:bg-gray-200 transition duration-200"
                       href="#"
                     >
-                      <div className="flex flex-col h-full justify-between  pr-16">
-                        <p className="text-sm text-gray-900  max-w-sm">
+                      <div className="flex flex-col h-full justify-between items-center text-center">
+                        <p className="text-sm text-gray-900">
                           For each road, PPI will explore deploying a toll road
                           or a weighbridge to finance maintenance.
                         </p>
-                        <p className="py-6 max-w-sm text-sm">
-                          {" "}
+                        <p className="py-6 text-sm">
                           PPI will not operate the roads but will partner with a
                           maintenance company
                         </p>
-                        <p className="mb-6 max-w-sm text-sm">
-                          {" "}
+                        <p className="mb-6 text-sm">
                           The charity may engage in capacity building
                           initiatives to empower locals to maintain the road and
                           create job
@@ -105,8 +103,8 @@ export default function WhatWeDoing() {
                     className="relative block h-full pt-8 px-8 pb-5 rounded-3xl bg-orange-50 hover:bg-orange-100 transition duration-200"
                     href="#"
                   >
-                    <div className="flex h-full flex-col items-start justify-between max-w-sm pr-16">
-                      <p className="text-sm text-gray-900 ">
+                    <div className="flex h-full flex-col items-center justify-between text-center">
+                      <p className="text-sm text-gray-900">
                         • PPI is a charity registered in the US, UK, and Ghana.
                       </p>
                       <p className="py-6 text-sm">

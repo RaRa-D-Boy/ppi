@@ -63,59 +63,59 @@ const sectors = [
 
 export default function EconomicRationalePage() {
   return (
-    <div className="min-h-screen bg-white px-4 lg:px-24 py-12">
-      <div className="w-full">
-        <div className=" mb-12">
+    <div className="min-h-screen w-full bg-white px-4 lg:px-24 py-12 flex items-center justify-center">
+      <div className="w-full max-w-6xl">
+        <div className="text-center mb-12">
           <div>
-            <span className=" bg-gray-100 p-4 min-w-[300px] text-xs  text-center font-medium uppercase text-green-600">
+            <span className="bg-gray-100 p-4 w-[300px] text-xs text-center font-medium uppercase text-green-600 mx-auto block">
               Economic Rationale
             </span>
-            <h1 className="text-4xl md:text-7xl font-bold text-start leading-tight py-12">
+            <h1 className="text-4xl md:text-7xl font-bold leading-tight py-12">
               Key Statistics
             </h1>
           </div>
         </div>
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-x-16 gap-y-8 divide-y md:divide-y-0 ">
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col items-center justify-center gap-8">
             {sectors
               .filter((_, i) => i % 2 === 0)
               .map((sector, i) => (
                 <div
                   key={sector.code}
-                  className="flex items-start gap-6 pt-8 border-t "
+                  className="flex flex-col items-center justify-center gap-6 pt-8 border-t "
                 >
                   {/* <div className="text-xs text-gray-400 w-10 shrink-0 pt-2">[{sector.code}]</div> */}
                   <div className="w-12 h-12 flex items-center text-center justify-center">
                     {sector.icon}
                   </div>
                   <div>
-                    <h2 className="text-3xl font-semibold mb-1">
+                    <h2 className="text-3xl text-center font-semibold mb-1">
                       {sector.title}
                     </h2>
-                    <p className="text-gray-500 text-sm max-w-md">
+                    <p className="text-gray-500 text-center text-sm max-w-md">
                       {sector.description}
                     </p>
                   </div>
                 </div>
               ))}
           </div>
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col items-center gap-8  ">
             {sectors
               .filter((_, i) => i % 2 === 1)
               .map((sector, i) => (
                 <div
                   key={sector.code}
-                  className="flex items-start gap-6 pt-8 border-t "
+                  className="flex flex-col items-center justify-center gap-6 pt-8 border-t "
                 >
                   {/* <div className="text-xs text-black w-10 shrink-0 pt-2 font-bold">[{sector.code}]</div> */}
                   <div className="w-12 h-12 flex  text-center items-center justify-center">
                     {sector.icon}
                   </div>
                   <div>
-                    <h2 className="text-3xl font-semibold mb-1">
+                    <h2 className="text-3xl  text-center font-semibold mb-1">
                       {sector.title}
                     </h2>
-                    <p className="text-gray-500 text-sm max-w-md">
+                    <p className="text-gray-500 text-center text-sm max-w-md">
                       {sector.description}
                     </p>
                   </div>

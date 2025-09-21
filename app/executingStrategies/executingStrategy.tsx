@@ -76,12 +76,10 @@ export default function ExecutingStrategy() {
   const slidesPerView = useSlidesPerView();
 
   const handlePrev = () => {
-    setActiveIdx((prev) => (prev === 0 ? cards.length - slidesPerView : prev - 1));
+    setActiveIdx((prev) => (prev === 0 ? cards.length - 1 : prev - 1));
   };
   const handleNext = () => {
-    setActiveIdx((prev) =>
-      prev >= cards.length - slidesPerView ? 0 : prev + 1
-    );
+    setActiveIdx((prev) => (prev === cards.length - 1 ? 0 : prev + 1));
   };
 
   // Calculate width percent for each card
@@ -90,33 +88,32 @@ export default function ExecutingStrategy() {
   const translateX = activeIdx * cardWidth;
 
   return (
-    <section className="px-8 md:px-24 py-24">
-      <div className="flex flex-wrap -m-4">
-        <div className="w-full lg:w-1/3 p-4">
-          <div className="flex flex-col justify-end items-start h-full py-12">
-            <h1 className="tracking-tight font-heading font-semibold text-7xl mb-4">How we are doing it.</h1>
-            
-            
-            <div className="flex gap-2 mt-8 ">
+    <section className="px-4 md:px-24 py-24 min-h-screen">
+      <div className="w-full text-center mb-12">
+        <span className="bg-gray-100 p-4 w-[300px] text-xs text-center font-medium uppercase text-green-600 mx-auto block mb-8">
+          Execution
+        </span>
+        <h1 className="tracking-tight font-heading font-semibold text-4xl md:text-7xl mb-8">How we are doing it.</h1>
+      </div>
+      <div className="flex flex-wrap -m-4 w-full">
+        <div className="w-full  p-4">
+          <div className="relative" style={{ height: 700 }}>
+            <div className="absolute top-4 right-4 z-10 flex gap-2">
               <button
                 onClick={handlePrev}
-                className="rounded-full border border-gray-300 p-2 hover:bg-gray-100 transition"
+                className="rounded-full border border-gray-300 p-2 hover:bg-gray-100 transition bg-white shadow-md"
                 aria-label="Previous"
               >
                 <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M13 16l-5-5 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </button>
               <button
                 onClick={handleNext}
-                className="rounded-full border border-gray-300 p-2 hover:bg-gray-100 transition"
+                className="rounded-full border border-gray-300 p-2 hover:bg-gray-100 transition bg-white shadow-md"
                 aria-label="Next"
               >
                 <svg width="20" height="20" fill="none" viewBox="0 0 20 20"><path d="M7 4l5 5-5 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
               </button>
             </div>
-          </div>
-        </div>
-        <div className="w-full xl:w-2/3 p-4">
-          <div className="relative" style={{ height: 700 }}>
             <div className="absolute left-0 top-0 h-full w-full overflow-x-hidden">
               <div
                 className="flex h-full transition-transform duration-500 ease-in-out scrollbar-hide"
@@ -148,8 +145,8 @@ export default function ExecutingStrategy() {
                         />
                       )}
                     </div>
-                    <h2 className="font-heading tracking-tight text-xl font-semibold mb-4 px-4 text-start">{item.title}</h2>
-                    <p className="tracking-tight text-gray-700 text-base text-start px-4">{item.body}</p>
+                    <h2 className="font-heading tracking-tight text-xl font-semibold mb-4 px-4 text-center">{item.title}</h2>
+                    <p className="tracking-tight text-gray-700 text-base text-center px-4">{item.body}</p>
                   </div>
                 ))}
               </div>
